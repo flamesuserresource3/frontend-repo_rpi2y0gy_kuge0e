@@ -5,7 +5,7 @@ const codeSample = `// Watch Me Code — sample JS
 function greet(name) {
   const hour = new Date().getHours();
   const greeting = hour < 12 ? 'Good morning' : hour < 18 ? 'Good afternoon' : 'Good evening';
-  return `${'${greeting}'} ${'${name}'}, let\'s build something incredible!`;
+  return '${'${greeting}'} ${'${name}'}, let\'s build something incredible!';
 }
 
 const tools = ['AI', 'Automation', 'Web'];
